@@ -20,6 +20,6 @@ public class MyBatisConfig {
 
     @Bean
     public SqlSession sqlSession(SqlSessionFactoryBean sqlSessionFactory) throws Exception {
-        return new SqlSessionTemplate(Objects.requireNonNull(sqlSessionFactory.getObject()));
+        return new SqlSessionTemplate(Objects.requireNonNull(sqlSessionFactory.getObject())); 
     } 
 }  
