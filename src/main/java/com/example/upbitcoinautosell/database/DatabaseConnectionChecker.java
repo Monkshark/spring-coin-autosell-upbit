@@ -31,5 +31,5 @@ public class DatabaseConnectionChecker implements CommandLineRunner {
         } catch (Exception e) {
             logger.error("Database connection test failed.", e);
         }
-    }
+    } 
 }
