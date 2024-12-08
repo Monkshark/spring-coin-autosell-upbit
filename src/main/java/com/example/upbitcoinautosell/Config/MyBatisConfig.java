@@ -22,4 +22,4 @@ public class MyBatisConfig {
     public SqlSession sqlSession(SqlSessionFactoryBean sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(Objects.requireNonNull(sqlSessionFactory.getObject()));
     }
-} 
+}  
