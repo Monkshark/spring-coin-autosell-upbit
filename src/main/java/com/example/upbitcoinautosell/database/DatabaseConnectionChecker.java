@@ -33,3 +33,4 @@ public class DatabaseConnectionChecker implements CommandLineRunner {
         }
     } 
 }
+ 
