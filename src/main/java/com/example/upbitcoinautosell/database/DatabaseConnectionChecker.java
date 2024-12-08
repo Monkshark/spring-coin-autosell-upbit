@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Component
 public class DatabaseConnectionChecker implements CommandLineRunner {
 
-    private static final Logger logger = LoggerFactory.getLogger(DatabaseConnectionChecker.class);
+    private static final Logger logger = LoggerFactory.getLogger(DatabaseConnectionChecker.class); 
 
     private final DataSource dataSource;
 
